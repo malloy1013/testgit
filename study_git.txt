@@ -19,9 +19,15 @@ git status
 （仓库内文件发生的具体变化）
 git diff
 
-(显示从近到远的提交日志)
+(显示从近到远的提交（commit）日志)
 git log
 
 
-（版本倒退,HEAD表示当前版本，上一个版本是HEAD^,上上一个是HEAD^^,上100个是HEAD~100）
-git reset --hard HEAD^
+（版本变换,HEAD表示当前版本号，上一个版本号是HEAD^,上上一个是HEAD^^,上100个是HEAD~100，）
+git reset --hard 版本号
+
+
+(显示从近到远的命令日志，注意开头是版本号)
+git reflog
+
+ 
