@@ -1,0 +1,27 @@
+（创建文件夹）
+mkdir 文件名
+
+（显示当前目录）
+pwd
+
+（将某个目录变为git仓库）
+git init
+
+（将文件添加到仓库）
+git add xxx.txt
+
+（将文件提交到仓库）
+git commit -m "提交说明"
+
+（仓库内文件的状态）
+git status
+
+（仓库内文件发生的具体变化）
+git diff
+
+(显示从近到远的提交日志)
+git log
+
+
+（版本倒退,HEAD表示当前版本，上一个版本是HEAD^,上上一个是HEAD^^,上100个是HEAD~100）
+git reset --hard HEAD^
