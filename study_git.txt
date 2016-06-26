@@ -56,3 +56,5 @@ git push -u origin master
 git push origin master
 
 
+（将github库克隆到本地库，xxx.git是远程库的名字）
+git clone git@github.com:malloy1013/xxx.git
