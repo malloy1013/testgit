@@ -39,3 +39,9 @@ git checkout -- xxx.txt
 
 （把暂存区的修改撤销）
 git reset HEAD file
+
+(删除工作区的文件)
+rm xxx.txt
+
+（删除版本库的文件）
+git rm xxx.txt
