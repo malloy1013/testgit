@@ -45,3 +45,14 @@ rm xxx.txt
 
 （删除版本库的文件）
 git rm xxx.txt
+
+（将本地库关联到github库上，xxx.git是远程库的名字）
+git remote add origin git@github.com:malloy1013/xxx.git
+
+（第一次推送master分支的所有内容）
+git push -u origin master
+
+（本地提交后，使用此命令将推送至github）
+git push origin master
+
+
