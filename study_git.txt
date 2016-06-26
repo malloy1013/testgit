@@ -30,4 +30,12 @@ git reset --hard 版本号
 (显示从近到远的命令日志，注意开头是版本号)
 git reflog
 
- 
+（某文件在工作区和版本库里最新版本的差别）
+git diff HEAD -- xxx.txt
+
+
+(把工作区的修改撤销)
+git checkout -- xxx.txt
+
+（把暂存区的修改撤销）
+git reset HEAD file
